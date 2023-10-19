@@ -1,160 +1,141 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Le musée d'Aquitaine</title>
-    <link rel="icon" type="image/svg+xml" href="images/icons/logo_rouge.svg" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="home.css" />
-    <link rel="stylesheet" href="system.css" />
-    <link rel="stylesheet" href="composants.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="/">
-          <img src="images/icons/logo.png" alt="Le logo du musée d'Aquitaine" />
-        </a>
 
-        <ul>
-          <li>
-            <a href="/decouvrir">Découvrir</a>
-          </li>
-          <li>
-            <a href="/visiter">Visiter</a>
-          </li>
-          <li>
-            <a href="/e-boutique">e-Boutique ↗</a>
-          </li>
-          <li>
-            <a
-              class="billetterie-bouton"
-              href="billetterie.html"
-              target="_parent"
-            >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le musée d'Aquitaine</title>
+  <link rel="icon" type="image/svg+xml" href="images/icons/logo_rouge.svg" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="home.css" />
+  <link rel="stylesheet" href="system.css" />
+  <link rel="stylesheet" href="composants.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="/">
+        <img src="images/icons/logo.png" alt="Le logo du musée d'Aquitaine" />
+      </a>
+
+      <ul>
+        <li>
+          <a href="/decouvrir">Découvrir</a>
+        </li>
+        <li>
+          <a href="/visiter">Visiter</a>
+        </li>
+        <li>
+          <a href="/e-boutique">e-Boutique ↗</a>
+        </li>
+        <li>
+          <a class="billetterie-bouton" href="billetterie.html" target="_parent">
+            <span>Billetterie</span>
+            <img src="images/icons/billetterie.svg" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="/langue">FR</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="accueil">
+      <div class="container">
+        <div class="accueil-texte">
+          <div>
+            <h1 class="titre">Bienvenue sur le site du musée d'Aquitaine</h1>
+            <a class="billetterie-bouton" href="billeterie.html">
               <span>Billetterie</span>
               <img src="images/icons/billetterie.svg" alt="" />
             </a>
-          </li>
-          <li>
-            <a href="/langue">FR</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="accueil">
-        <div class="container">
-          <div class="accueil-texte">
-            <div>
-              <h1 class="titre">Bienvenue sur le site du musée d'Aquitaine</h1>
-              <a class="billetterie-bouton" href="billeterie.html">
-                <span>Billetterie</span>
-                <img src="images/icons/billetterie.svg" alt="" />
-              </a>
-              <a href="#" class="bouton-scoll"
-                >Scrollez pour en savoir plus &downarrow;</a
-              >
-            </div>
+            <a href="#" class="bouton-scoll">Scrollez pour en savoir plus &downarrow;</a>
+          </div>
 
-            <p class="credit">
-              &copy; Cénotaphe de Michel de Montaigne, musée d’Aquitaine
+          <p class="credit">
+            &copy; Cénotaphe de Michel de Montaigne, musée d’Aquitaine
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <blockquote class="citation">
+          “Le musée d'Aquitaine, un lieu unique qui raconte l'histoire de
+          Bordeaux et de sa région, depuis la préhistoire jusqu'à nos jours, à
+          travers ses collections d'archéologie, d'histoire et d'ethnographie
+          régionale et extra-européenne. En famille, seul ou accompagné
+          voyagez au rythme de la région.”
+        </blockquote>
+      </div>
+    </section>
+    <section>
+      <h2 class="titre-expo">Les expositions du moment</h2>
+      <div class="cadre">
+        <div class="text-expo">
+          <div class="text-expo-content">
+            <h3 class="espace">L'art préhistorique en Aquitaine</h3>
+            <p class="text-expo espace-bas">
+              En remontant 40 000 ans dans le passé, nous vous présentons les
+              chefs d’œuvre de l’art préhistorique provenant des plus grands
+              sites préhistoriques du sud de la France. Découvrez un nombre
+              exceptionnel d’objets préhistoriques.
+            </p>
+            <p class="exposition-schedule">
+              <img class="calendrier" src="images/icons/calendrier.svg" alt="icone calendrier" />du 24 mai 2023 au 7
+              janvier 2025
             </p>
           </div>
         </div>
-      </section>
-      <section>
-        <div class="container">
-          <blockquote class="citation">
-            “Le musée d'Aquitaine, un lieu unique qui raconte l'histoire de
-            Bordeaux et de sa région, depuis la préhistoire jusqu'à nos jours, à
-            travers ses collections d'archéologie, d'histoire et d'ethnographie
-            régionale et extra-européenne. En famille, seul ou accompagné
-            voyagez au rythme de la région.”
-          </blockquote>
+        <div class="img-expo">
+          <img src="images/exposition-art.webp" alt="exposition art préhistorique" />
         </div>
-      </section>
-      <section>
-        <h2 class="titre-expo">Les expositions du moment</h2>
-        <div class="cadre">
-          <div class="text-expo">
-            <div class="text-expo-content">
-              <h3 class="espace">L'art préhistorique en Aquitaine</h3>
-              <p class="text-expo espace-bas">
-                En remontant 40 000 ans dans le passé, nous vous présentons les
-                chefs d’œuvre de l’art préhistorique provenant des plus grands
-                sites préhistoriques du sud de la France. Découvrez un nombre
-                exceptionnel d’objets préhistoriques.
-              </p>
-              <p class="exposition-schedule">
-                <img
-                  class="calendrier"
-                  src="images/icons/calendrier.svg"
-                  alt="icone calendrier"
-                />du 24 mai 2023 au 7 janvier 2025
-              </p>
-            </div>
-          </div>
-          <div class="img-expo">
-            <img
-              src="images/exposition-art.jpg"
-              alt="exposition art préhistorique"
-            />
-          </div>
-        </div>
+      </div>
 
-        <div class="cadre">
-          <div class="text-expo">
-            <div class="text-expo-content">
-              <h3 class="espace">L'église Saint-Pierre de Bruges</h3>
-              <p class="text-expo espace-bas">
-                Le musée d’Aquitaine s'est associé au Centre Archéologie
-                Préventive de Bordeaux Métropole, au Service Régional de
-                l’Archéologie et à l’Inrap pour faire découvrir les dernières
-                découvertes archéologiques faites sur le territoire de Bordeaux
-                Métropole.
+      <div class="cadre">
+        <div class="text-expo">
+          <div class="text-expo-content">
+            <h3 class="espace">L'église Saint-Pierre de Bruges</h3>
+            <p class="text-expo espace-bas">
+              Le musée d’Aquitaine s'est associé au Centre Archéologie
+              Préventive de Bordeaux Métropole, au Service Régional de
+              l’Archéologie et à l’Inrap pour faire découvrir les dernières
+              découvertes archéologiques faites sur le territoire de Bordeaux
+              Métropole.
+            </p>
+            <div>
+              <p class="exposition-schedule">
+                <img class="calendrier" src="images/icons/calendrier.svg" alt="icone calendrier" />du 24 mai 2023 au 7
+                janvier 2025
               </p>
-              <div>
-                <p class="exposition-schedule">
-                  <img
-                    class="calendrier"
-                    src="images/icons/calendrier.svg"
-                    alt="icone calendrier"
-                  />du 24 mai 2023 au 7 janvier 2025
-                </p>
-              </div>
             </div>
-          </div>
-          <div class="img-expo">
-            <img
-              src="images/exposition-eglise.jpg"
-              alt="image de l'exposition sur l'art préhistorique présentée au musée d'aquitaine"
-            />
           </div>
         </div>
-        <a href="#" class="bouton-scoll2"
-          >Voir toutes les expositions &RightArrow;</a
-        >
-      </section>
-      <section class="collections">
-        <h2>Les collections du musée d’Aquitaine</h2>
-        <div>
-          <article>
-            <div class="collections-container">
-              <h3>Le musée, d'hier à aujourd'hui</h3>
-              <p class="collection-histoire-description">
-                Découvrez les temps forts de l'histoire du musée, depuis le
-                projet de Georges-Henri Rivière jusqu'aux chantiers de
-                rénovation actuels, en passant par l'extraordinaire épopée de la
-                constitution de ses riches collections.
-              </p>
-              <a href="#" class="bouton-rouge collection-savoir-plus"
-                >En savoir plus</a
-              >
-            </div>
-          </article>
-          <!--
+        <div class="img-expo">
+          <img src="images/exposition-eglise.webp"
+            alt="image de l'exposition sur l'art préhistorique présentée au musée d'aquitaine" />
+        </div>
+      </div>
+      <a href="#" class="bouton-scoll2">Voir toutes les expositions &RightArrow;</a>
+    </section>
+    <section class="collections">
+      <h2>Les collections du musée d’Aquitaine</h2>
+      <div>
+        <article>
+          <div class="collections-container">
+            <h3>Le musée, d'hier à aujourd'hui</h3>
+            <p class="collection-histoire-description">
+              Découvrez les temps forts de l'histoire du musée, depuis le
+              projet de Georges-Henri Rivière jusqu'aux chantiers de
+              rénovation actuels, en passant par l'extraordinaire épopée de la
+              constitution de ses riches collections.
+            </p>
+            <a href="#" class="bouton-rouge collection-savoir-plus">En savoir plus</a>
+          </div>
+        </article>
+        <!--
           <article>
             <div class="collections-container">
                 <h3>Le musée, d'hier à aujourd'hui</h3>
@@ -170,7 +151,7 @@
             </div>
           </article>
           -->
-          <!-- 
+        <!-- 
           <article>
             <img src="" alt="" />
             <h3>Le musée, d'hier à aujourd'hui</h3>
@@ -215,142 +196,185 @@
             <a href="#" class="bouton-droite"> </a>
             <span></span>
             -->
-        </div>
-      </section>
+      </div>
+    </section>
     <section class="agenda">
-        <h2 class="expo">L'agenda de la semaine</h2>
-          <div class="container agenda-events-list">
-            <article class="agenda-event">
-              <div class="agenda-event-infos">
-                <img class="img-agenda1" src="images/agenda1.png" alt="Agenda 1">
-                <p class="tag">Projection</p>
-                <time>15 Oct 2023</time>
-              </div>
-              <h2>Le Sri-Lanka et l'art</h2>
-            </article>
-    
-            <article class="agenda-event agenda-event-mini">
-              <div class="agenda-event-infos">
-                <img class="img-agenda2" src="images/agenda2.png" alt="Agenda 2">
-                <p class="tag">Conférence</p>
-                <time>15 Oct 2023</time>
-              </div>
-              <h2>La figuration humaine </br> dans l'art Paléolithique</h2>
-            </article>
-    
-            <article class="agenda-event agenda-event-mini">
-              <div class="agenda-event-infos">
-                <img class="img-agenda3" src="images/agenda3.png" alt="Agenda 3">
-                <p class="tag">Visite</p>
-                <time>15 Oct 2023</time>
-              </div>
-              <h2>Bordeaux en Révolution</h2>
-            </article>
+      <h2 class="expo">L'agenda de la semaine</h2>
+      <div class="container agenda-events-list">
+        <article class="agenda-event">
+          <div class="agenda-event-infos">
+            <img class="img-agenda1" src="images/agenda1.webp" alt="Agenda 1">
+            <p class="tag">Projection</p>
+            <time>15 Oct 2023</time>
           </div>
-    </section> 
-      <section class="escape-game">
-        <h2>Une expérience du musée plus intense</h2>
+          <h2>Le Sri-Lanka et l'art</h2>
+        </article>
+
+        <article class="agenda-event agenda-event-mini">
+          <div class="agenda-event-infos">
+            <img class="img-agenda2" src="images/agenda2.webp" alt="Agenda 2">
+            <p class="tag">Conférence</p>
+            <time>15 Oct 2023</time>
+          </div>
+          <h2>La figuration humaine </br> dans l'art Paléolithique</h2>
+        </article>
+
+        <article class="agenda-event agenda-event-mini">
+          <div class="agenda-event-infos">
+            <img class="img-agenda3" src="images/agenda3.webp" alt="Agenda 3">
+            <p class="tag">Visite</p>
+            <time>15 Oct 2023</time>
+          </div>
+          <h2>Bordeaux en Révolution</h2>
+        </article>
+      </div>
+    </section>
+    <section class="escape-game">
+      <h2>Une expérience du musée plus intense</h2>
+      <p class="p-big">
+        Découvrez le Musée d’Aquitaine à Bordeaux de façon ludique et insolite
+        ! Voyagez à travers les époques, lieu par lieu, énigme par énigme,
+        grâce à notre parcours au format d’escape game audio !
+      </p>
+      <a class="bouton">Découvrir l'escape game</a>
+    </section>
+    <section class="boutique">
+      <div class="container">
+        <h2>La boutique</h2>
         <p class="p-big">
-          Découvrez le Musée d’Aquitaine à Bordeaux de façon ludique et insolite
-          ! Voyagez à travers les époques, lieu par lieu, énigme par énigme,
-          grâce à notre parcours au format d’escape game audio !
+          Découvrez notre librairie, l'endroit parfait pour trouver des idées
+          cadeaux uniques. Offrez à vos proches un tirage photographique
+          exceptionnel, capturant la beauté du territoire de Bordeaux
+          Métropole, réalisé par le talentueux Félix Arnaudin. Chez nous, la
+          magie des mots se mêle à l'art visuel pour des présents
+          inoubliables.
         </p>
-        <a class="bouton">Découvrir l'escape game</a>
-      </section>
-      <section class="boutique">
-        <div class="container">
-          <h2>La boutique</h2>
-          <p class="p-big">
-            Découvrez notre librairie, l'endroit parfait pour trouver des idées
-            cadeaux uniques. Offrez à vos proches un tirage photographique
-            exceptionnel, capturant la beauté du territoire de Bordeaux
-            Métropole, réalisé par le talentueux Félix Arnaudin. Chez nous, la
-            magie des mots se mêle à l'art visuel pour des présents
-            inoubliables.
-          </p>
-          <div class="time">
-            <img
-              class="calendrier"
-              src="images/icons/calendrier.svg"
-              alt="icone calendrier"
-            />
-            <p>mardi au dimanche, de 11 h à 18 h (sauf jours fériés)</p>
+        <div class="time">
+          <img class="calendrier" src="images/icons/calendrier.svg" alt="icone calendrier" />
+          <p>mardi au dimanche, de 11 h à 18 h (sauf jours fériés)</p>
+        </div>
+        <div class="grid-container">
+          <div class="img-container img-one">
+            <span class="boutique-tag">Bijoux</span>
+            <img class="img1" src="images/boutique1_bijoux.webp" alt="bijou présentant la boutique" />
           </div>
-          <div class="grid-container">
-            <div class="img-container img-one">
-                <span class="boutique-tag">Bijoux</span>
-              <img
-                class="img1"
-                src="images/boutique1_bijoux.jpg"
-                alt="bijou présentant la boutique"
-              />
-            </div>
 
-            <div class="img-container img-two">
-                <span class="boutique-tag">Vin</span>
-                <img
-                src="images/boutique2_vin.jpg"
-                alt="photo du vin de la boutique"
-              />
-            </div>
-  
-            <div class="img-container img-three">
-                <span class="boutique-tag">Droguerie</span>
-                <img
-                src="images/boutique3_droguerie.jpg"
-                alt="photo des produits de la droguerie"
-              />
-            </div>
-            <div class="img-container img-four">
-                <span class="boutique-tag">Lampes</span>
-                <img
-                src="images/boutique4_lampes.jpg"
-                alt="photo d'une lampe de la boutique"
-              />
-            </div>
-            <div class="img-container img-five">
-                <span class="boutique-tag">Livres</span>
-                <img
-                src="images/boutique5_livres.jpg"
-                alt="photo d'un livre de la boutique"
-              />
-            </div>
-            <div class="img-container img-six">
-                <span class="boutique-tag">Bracelets</span>
-                <img
-                src="images/boutique6_bracelets.jpg"
-                alt="photo de bracelets de la boutique"
-              />
-            </div>
+          <div class="img-container img-two">
+            <span class="boutique-tag">Vin</span>
+            <img src="images/boutique2_vin.webp" alt="photo du vin de la boutique" />
           </div>
-          <div class="e-shop">
-            <h4>Un achat simplifié ? Retrouvez notre boutique en ligne ici :</h4>
-            <a class="bouton" href="#">
-                <span>e-Boutique</span>
-                <img src="images/icons/fleche_externe.svg" alt="flèche externe">
-            </a>
+
+          <div class="img-container img-three">
+            <span class="boutique-tag">Droguerie</span>
+            <img src="images/boutique3_droguerie.webp" alt="photo des produits de la droguerie" />
+          </div>
+          <div class="img-container img-four">
+            <span class="boutique-tag">Lampes</span>
+            <img src="images/boutique4_lampes.webp" alt="photo d'une lampe de la boutique" />
+          </div>
+          <div class="img-container img-five">
+            <span class="boutique-tag">Livres</span>
+            <img src="images/boutique5_livres.webp" alt="photo d'un livre de la boutique" />
+          </div>
+          <div class="img-container img-six">
+            <span class="boutique-tag">Bracelets</span>
+            <img src="images/boutique6_bracelets.webp" alt="photo de bracelets de la boutique" />
           </div>
         </div>
-      </section>
-    </main>
-    <aside>
-      <div class="newsletter">
-        <h3>Apportez la culture chez vous.</h3>
-        <div class="newsletter-box">
-            <label for="input">
-            </label>
-          <input type="text" name="name" placeholder="Entrez votre adresse mail pour recevoir notre newsletter hebdomadaire.">
-          <a class="newsletter-bouton" href="#">Envoyer</a>
+        <div class="e-shop">
+          <h4>Un achat simplifié ? Retrouvez notre boutique en ligne ici :</h4>
+          <a class="bouton" href="#">
+            <span>e-Boutique</span>
+            <img src="images/icons/fleche_externe.svg" alt="flèche externe">
+          </a>
         </div>
       </div>
-      <div class="support-us">
-            <p>Le musée d’Aquitaine à besoin de vous !</p>
-            <a class="bouton-rouge" href="#">
-                Soutenez-nous !
-            </a>
+    </section>
+  </main>
+  <aside>
+    <div class="newsletter">
+      <h3>Apportez la culture chez vous.</h3>
+      <div class="newsletter-box">
+        <label for="input">
+        </label>
+        <input type="text" name="name"
+          placeholder="Entrez votre adresse mail pour recevoir notre newsletter hebdomadaire.">
+        <a class="newsletter-bouton" href="#">Envoyer</a>
+      </div>
+    </div>
+    <div class="support-us">
+      <p>Le musée d’Aquitaine à besoin de vous !</p>
+      <a class="bouton-rouge" href="#">
+        Soutenez-nous !
+      </a>
+    </div>
+    </div>
+  </aside>
+
+  <footer>
+    <div>
+      <h4>Musée d'Aquitaine</h4>
+      <address>
+        <p class="espace-bas">20 cours Pasteur Bordeaux 33000</p>
+        <a class="socials" href="mailto:musaq@mairie-bordeaux.fr">musaq@mairie-bordeaux.fr</a>
+        <a class="socials" href="tel:+33556015100">05 56 01 51 00</a>
+      </address>
+      <h5 class="espace-bas">Restons en contact</h5>
+      <div class="text-and-reseaux espace-bas">
+        <div class="facebook">
+          <img src="images/facebook.svg" alt="pictogramme facebook">
+          <p>Facebook</p>
+        </div>
+        <div class="instagram">
+          <img src="images/insta.svg" alt="pictogramme instagram">
+          <p>Instagram</p>
+        </div>
+        <div class="twitter">
+          <img src="images/twitter.svg" alt="pictogramme Twitter">
+          <p>Twitter</p>
+        </div>
+        <div class="youtube">
+          <img src="images/youtube.svg" alt="pictogramme Youtube">
+          <p>Youtube</p>
         </div>
       </div>
-    </aside>
+    </div>
+    <div>
+      <h4 class="espace-gauche">Horaires d'ouverture</h4>
+      <ul class="espace-gauche espace-bas-horaires">
+        <li>Du mardi au dimanche de 11h à 18h</li>
+        <li>Fermé les lundis et jours fériés sauf le 14 juillet et le 15 août</li>
+        <div class="soutiennent">
+          <h5 class="espace-bas">Ils nous soutiennent</h5>
+          <div class=" espace-bas soutien">
+            <div>
+              <img src="images/picto-bdx.svg" alt="pictogramme ville bordeaux">
+              <p>Ville de Bordeaux</p>
+            </div>
+            <div class="europe">
+              <img src="images/Flag_of_Europe.svg" alt="pictogramme Union Europenne">
+              <p>Union européenne</p>
+            </div>
+            <div>
+              <img src="images/Republique-francaise-logo.svg" alt="pictogramme republique francaise ">
+              <p>Republique française</p>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <div class="apropos espace-gauche">
+      <h4>À propos du musée</h4>
+      <div class="espace-a-propo">
+        <a href="#">Mentions légales</a>
+        <a class="espace-a-propos" href="#">Nos partenaires</a>
+        <a class="espace-a-propos" href="#">Faire un don</a>
+        <a class="espace-a-propos" href="#">Travailler avec nous</a>
+        <a class="espace-a-propos" href="#">Accessibilité</a>
+        <a class="espace-a-propos" href="#">Plan du site</a>
+      </div>
+    </div>
+  </footer>
+</body>
 
-  </body>
 </html>

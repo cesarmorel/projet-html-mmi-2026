@@ -7,7 +7,7 @@
         rgba(25, 25, 25, 0.58) 57.72%,
         rgba(37, 37, 37, 0.85) 100%
       ),
-    url("images/accueil_img_cenotaphe.png");
+    url("images/accueil-img-cenotaphe.webp");
   background-position: center 0%;
   color: #fff;
   height: 100vh;
@@ -106,7 +106,7 @@
         rgba(25, 25, 25, 0.58) 57.72%,
         rgba(37, 37, 37, 0.85) 100%
       ),
-    100% / 100% url("images/collection1_hier.jpg");
+    100% / 100% url("images/collection1_hier.webp");
   margin-left: auto;
   margin-right: auto;
 }
@@ -131,7 +131,7 @@
         rgba(25, 25, 25, 0.58) 57.72%,
         rgba(37, 37, 37, 0.85) 100%
       ),
-    100% / 100% url("images/collection1_hier.jpg");
+    100% / 100% url("images/collection1_hier.webp");
   margin-left: auto;
   margin-right: auto;
 }
@@ -211,7 +211,7 @@ footer {
         rgba(25, 25, 25, 0.58) 57.72%,
         rgba(37, 37, 37, 0.85) 100%
       ),
-    url("images/escape-game.png");
+    url("images/escape-game.webp");
   background-size: cover;
   background-position: center;
   height: 33.063rem;
@@ -448,7 +448,7 @@ input{
 }
 .support-us {
     padding: 0;
-    background: url('images/support_fond.jpg'), linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.74));
+    background: url('images/support_fond.webp'), linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.74));
     background-position: center 0%;
     background-size: cover;
     width: 100vw;
@@ -469,3 +469,4 @@ input{
     font-family: 'Lato', serif;
     font-size: 1.25rem;
 }
+
