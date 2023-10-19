@@ -1,0 +1,38 @@
+header {
+  position: absolute;
+  min-width: 100vw;
+  background-color: #b01f0a;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: solid underline #fff 0.125rem;
+  font-size: 1.375rem;
+  align-items: center;
+}
+
+.containers{
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .agenda-events-list {
+    flex-direction: column;
+  }
+}
