@@ -1,12 +1,9 @@
 .accueil {
-  background: no-repeat 120%
-      linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(5, 5, 5, 0.12) 28.62%,
-        rgba(25, 25, 25, 0.58) 57.72%,
-        rgba(37, 37, 37, 0.85) 100%
-      ),
+  background: no-repeat 120% linear-gradient(180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(5, 5, 5, 0.12) 28.62%,
+      rgba(25, 25, 25, 0.58) 57.72%,
+      rgba(37, 37, 37, 0.85) 100%),
     url("images/accueil-img-cenotaphe.webp");
   background-position: center 0%;
   background-size: cover;
@@ -15,20 +12,26 @@
   display: flex;
   align-items: flex-end;
 }
+
 .titre {
   max-width: 65rem;
 }
+
 .accueil-texte {
   max-width: 100%;
   position: relative;
   margin-bottom: 1rem;
 }
+
 .accueil .container {
   display: flex;
+  flex-wrap: wrap;
 }
+
 .accueil h1 {
   font-size: 4rem;
 }
+
 .billetterie-bouton {
   text-decoration: none;
   background-color: #fff;
@@ -39,16 +42,19 @@
   align-items: center;
   gap: 0.625rem;
 }
+
 .accueil .billetterie-bouton {
   margin: 3.125rem 0 0 0;
 }
+
 .billetterie-bouton span {
   color: #b21e1e;
   font-family: "Lato", serif;
   font-size: 1.5rem;
   font-weight: 400;
 }
-.bouton-scoll {
+
+.bouton-scroll {
   display: block;
   font-family: "Noto Serif KR";
   font-size: 1.5rem;
@@ -56,6 +62,7 @@
   text-decoration: none;
   margin-top: 6.25rem;
 }
+
 .credit {
   display: block;
   font-family: "Noto Serif KR";
@@ -63,6 +70,7 @@
   text-align: end;
   margin-right: 3.75rem;
 }
+
 .citation {
   max-width: 61.563rem;
   margin-top: 15.625rem;
@@ -73,21 +81,26 @@
   font-family: "Noto Serif KR";
   font-size: 2rem;
   font-weight: 400;
+
 }
+
 .collections {
   background-color: #f5f4f4;
   height: 62.5rem;
   position: relative;
 }
+
 .collections h2 {
   padding-top: 10.25rem;
   padding-bottom: 6.25rem;
 }
+
 .collections article {
   color: #fff;
   display: flex;
   align-items: flex-end;
 }
+
 .collections-container {
   display: flex;
   align-items: flex-start;
@@ -95,22 +108,30 @@
   width: 29.75rem;
   margin: 0 0 5.25rem 5.25rem;
 }
+
 .collections article:nth-child(1) {
   position: relative;
   width: 67.5rem;
   height: 28rem;
-  background: no-repeat
-      linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(5, 5, 5, 0.12) 28.62%,
-        rgba(25, 25, 25, 0.58) 57.72%,
-        rgba(37, 37, 37, 0.85) 100%
-      ),
+  background: no-repeat linear-gradient(180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(5, 5, 5, 0.12) 28.62%,
+      rgba(25, 25, 25, 0.58) 57.72%,
+      rgba(37, 37, 37, 0.85) 100%),
     100% / 100% url("images/collection1_hier.webp");
+  background-size: cover;
   margin-left: auto;
   margin-right: auto;
 }
+
+.collections article{
+  height: fit-content;
+}
+
+.collections-container{
+  margin: 0.5rem;
+}
+
 .collections article:nth-child(1)::after {
   position: absolute;
   content: "4/4";
@@ -118,39 +139,42 @@
   right: 1rem;
   color: #fff;
 }
+
 .collections article:nth-child(2) {
   position: absolute;
   top: 19.25rem;
   left: -58rem;
   width: 67.5rem;
   height: 28rem;
-  background: no-repeat
-      linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(5, 5, 5, 0.12) 28.62%,
-        rgba(25, 25, 25, 0.58) 57.72%,
-        rgba(37, 37, 37, 0.85) 100%
-      ),
+  background: no-repeat linear-gradient(180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(5, 5, 5, 0.12) 28.62%,
+      rgba(25, 25, 25, 0.58) 57.72%,
+      rgba(37, 37, 37, 0.85) 100%),
     100% / 100% url("images/collection1_hier.webp");
   margin-left: auto;
   margin-right: auto;
 }
+
 .collection-histoire-description {
   margin-top: 0.75rem;
 }
+
 .support-us {
   height: 20.625rem;
   width: 100vw;
   text-align: center;
   text-transform: uppercase;
 }
+
 .collections {
   background-color: #f5f4f4;
 }
+
 .titre-expo {
-    margin-bottom: 6.25rem;
+  margin-bottom: 6.25rem;
 }
+
 .cadre {
   width: fit-content;
   background: #f5f4f4;
@@ -159,25 +183,31 @@
   margin-bottom: 55px;
   display: flex;
 }
+
 .espace {
   margin-bottom: 40px;
 }
+
 .espace-bas {
   margin-top: 40px;
 }
+
 .text-expo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .img-expo {
   width: 50%;
 }
+
 .text-expo-content {
   padding: 0px 91px;
   font-weight: 400;
 }
+
 .exposition-schedule {
   display: flex;
   gap: 0.625rem;
@@ -185,11 +215,12 @@
   font-weight: 700;
   padding-top: 4.75rem;
 }
-.bouton-scoll2 {
+
+.bouton-scroll2 {
   display: block;
   font-family: "Noto Serif KR";
   font-size: 1.5rem;
-  color: black!important;
+  color: black !important;
   text-decoration: none;
   margin-left: 80px;
   margin-bottom: 200px;
@@ -202,41 +233,42 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
 .escape-game {
   padding: 0;
   margin: 10.25rem 0 0;
-  background: no-repeat 100%
-      linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(5, 5, 5, 0.12) 28.62%,
-        rgba(25, 25, 25, 0.58) 57.72%,
-        rgba(37, 37, 37, 0.85) 100%
-      ),
+  background: no-repeat 100% linear-gradient(180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(5, 5, 5, 0.12) 28.62%,
+      rgba(25, 25, 25, 0.58) 57.72%,
+      rgba(37, 37, 37, 0.85) 100%),
     url("images/escape-game.webp");
   background-size: cover;
   background-position: center;
   height: 33.063rem;
 }
+
 .escape-game h2 {
   display: flex;
   justify-content: center;
   color: white;
-  width: 61.563rem;
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 50px;
+  padding:0 2rem;
 }
+
 .escape-game p {
   justify-content: center;
   text-align: center;
   color: white;
   margin-left: auto;
   margin-right: auto;
-  width: 900px;
+  padding: 2rem;
   margin-bottom: 60px;
 }
+
 .escape-game a {
   display: flex;
   justify-content: center;
@@ -249,6 +281,7 @@ footer {
   width: 200px;
   height: 50px;
 }
+
 .espace-bas-grand {
   margin-top: 200px;
 }
@@ -338,6 +371,7 @@ footer {
 .boutique .p-big {
   padding-top: 5.5rem;
 }
+
 .boutique .time {
   margin-top: 3rem;
   font-weight: 700;
@@ -345,9 +379,11 @@ footer {
   gap: 0.625rem;
   align-items: center;
 }
+
 .calendrier {
   width: 1.125rem;
 }
+
 .boutique .grid-container {
   margin-top: 3rem;
   display: grid;
@@ -356,17 +392,20 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(13, 1fr);
 }
+
 .boutique .grid-container img {
   object-fit: cover;
   height: 100%;
   width: 100%;
 }
+
 .img-container {
   background-color: blue;
   width: 100%;
   height: 100%;
   position: relative;
 }
+
 .boutique-tag {
   position: absolute;
   padding: 0.5rem 1rem;
@@ -376,9 +415,11 @@ footer {
   bottom: 1.25rem;
   left: 1.25rem;
 }
+
 .img-container .img-two::after {
   content: "Nourriture";
 }
+
 .img-one {
   grid-row: 1 / span 10;
 }
@@ -390,29 +431,36 @@ footer {
 .img-three {
   grid-row: 1 / span 5;
 }
+
 .img-four {
   grid-row: 11 / -1;
 }
+
 .img-five {
   grid-row: 12 / -1;
 }
+
 .img-six {
   grid-row: 6 / -1;
 }
+
 .e-shop {
   margin-top: 8rem;
   display: flex;
   align-items: center;
 }
+
 .e-shop h4 {
   font-weight: 400;
 }
+
 .e-shop .bouton {
   display: flex;
   align-items: center;
   padding: 0.5rem 1rem;
   margin-left: 3rem;
 }
+
 .e-shop a,
 a:visited {
   background-color: #b21e1e;
@@ -420,61 +468,64 @@ a:visited {
   text-decoration: underline;
 }
 
-.newsletter-box{
-    width: 40rem;
-    background-color: #fff;
-}
-.newsletter-box{
-    width: 40rem;
-    background-color: #fff;
-}
-.newsletter{
-    background-color: #f5f4f4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3rem 2.5rem;
+.newsletter-box {
+  width: 40rem;
+  background-color: #fff;
 }
 
-.newsletter h3{
-    font-weight: 400;
+.newsletter-box {
+  width: 40rem;
+  background-color: #fff;
 }
-.newsletter-bouton{
-    padding: 2rem 1rem;
-    padding: 1rem 1.5rem;
-    background-color: #B21E1E;
-    color: #fff;
-    text-decoration: none;
+
+.newsletter {
+  background-color: #f5f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2.5rem;
 }
-input{
-    width: 100%;
-    padding: 1rem;
-    border: none;
-    
+
+.newsletter h3 {
+  font-weight: 400;
 }
+
+.newsletter-bouton {
+  padding: 2rem 1rem;
+  padding: 1rem 1.5rem;
+  background-color: #B21E1E;
+  color: #fff;
+  text-decoration: none;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+
+}
+
 .support-us {
-    padding: 0;
-    background: url('images/support_fond.webp'), linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.74));
-    background-position: center 0%;
-    background-size: cover;
-    width: 100vw;
-    position: relative;
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Noto Serif KR', serif;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  padding: 0;
+  background: url('images/support_fond.webp'), linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.74));
+  background-position: center 0%;
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Noto Serif KR', serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
-.support-us a{
-    margin-top: 3rem;
-    padding: 1rem 1rem;
-    font-family: 'Lato', serif;
-    font-size: 1.25rem;
+
+.support-us a {
+  margin-top: 3rem;
+  padding: 1rem 1rem;
+  font-family: 'Lato', serif;
+  font-size: 1.25rem;
 }
-
-
-

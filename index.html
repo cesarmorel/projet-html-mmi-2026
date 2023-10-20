@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Le musée d'Aquitaine</title>
   <link rel="icon" type="image/svg+xml" href="images/icons/logo_rouge.svg" />
+  <link rel="stylesheet" href="media.css" />
   <link rel="stylesheet" href="reset.css" />
   <link rel="stylesheet" href="home.css" />
   <link rel="stylesheet" href="system.css" />
@@ -51,7 +52,7 @@
               <span>Billetterie</span>
               <img src="images/icons/billetterie.svg" alt="" />
             </a>
-            <a href="#" class="bouton-scoll">Scrollez pour en savoir plus &downarrow;</a>
+            <a href="#" class="bouton-scroll">Scrollez pour en savoir plus &downarrow;</a>
           </div>
 
           <p class="credit">
@@ -118,12 +119,12 @@
             alt="image de l'exposition sur l'art préhistorique présentée au musée d'aquitaine" />
         </div>
       </div>
-      <a href="#" class="bouton-scoll2">Voir toutes les expositions &RightArrow;</a>
+      <a href="#" class="bouton-scroll2 responsive" >Voir toutes les expositions &RightArrow;</a>
     </section>
     <section class="collections">
       <h2>Les collections du musée d’Aquitaine</h2>
       <div>
-        <article>
+        <article class="first-collection">
           <div class="collections-container">
             <h3>Le musée, d'hier à aujourd'hui</h3>
             <p class="collection-histoire-description">
@@ -236,7 +237,7 @@
         ! Voyagez à travers les époques, lieu par lieu, énigme par énigme,
         grâce à notre parcours au format d’escape game audio !
       </p>
-      <a class="bouton bouon-rouge">Découvrir l'escape game</a>
+      <a class="bouton">Découvrir l'escape game</a>
     </section>
     <section class="boutique">
       <div class="container">
@@ -283,7 +284,7 @@
         </div>
         <div class="e-shop">
           <h4>Un achat simplifié ? Retrouvez notre boutique en ligne ici :</h4>
-          <a class="bouton bouton-rouge" href="#">
+          <a class="bouton" href="#">
             <span>e-Boutique</span>
             <img src="images/icons/fleche_externe.svg" alt="flèche externe">
           </a>
@@ -311,17 +312,16 @@
     </div>
   </aside>
 
-  <footer class="container">
-    <div class="column1">
+  <footer>
+    <div>
       <h4>Musée d'Aquitaine</h4>
       <address>
-        <p>20 cours Pasteur Bordeaux 33000</p>
-        <a href="mailto:musaq@mairie-bordeaux.fr">musaq@mairie-bordeaux.fr</a>
-        <a class="tel" href="tel:+33556015100">05 56 01 51 00</a>
+        <p class="espace-bas">20 cours Pasteur Bordeaux 33000</p>
+        <a class="socials" href="mailto:musaq@mairie-bordeaux.fr">musaq@mairie-bordeaux.fr</a>
+        <a class="socials" href="tel:+33556015100">05 56 01 51 00</a>
       </address>
-      <div>
-      <h5>Restons en contact</h5>
-      <div class="socials">
+      <h5 class="espace-bas">Restons en contact</h5>
+      <div class="text-and-reseaux espace-bas">
         <div class="facebook">
           <img src="images/facebook.svg" alt="pictogramme facebook">
           <p>Facebook</p>
@@ -340,21 +340,19 @@
         </div>
       </div>
     </div>
-    </div>
-    <div class="column2">
-      <h4>Horaires d'ouverture</h4>
-      <div>
-      <p class="week">Du mardi au dimanche de 11h à 18h</p>
-        <p>Fermé les lundis et jours fériés sauf le 14 juillet et le 15 août</p>
-    </div>
+    <div>
+      <h4 class="espace-gauche">Horaires d'ouverture</h4>
+      <ul class="espace-gauche espace-bas-horaires">
+        <li>Du mardi au dimanche de 11h à 18h</li>
+        <li>Fermé les lundis et jours fériés sauf le 14 juillet et le 15 août</li>
         <div class="soutiennent">
-          <h5>Ils nous soutiennent</h5>
-          <div class="partners">
+          <h5 class="espace-bas">Ils nous soutiennent</h5>
+          <div class=" espace-bas soutien">
             <div>
               <img src="images/picto-bdx.svg" alt="pictogramme ville bordeaux">
               <p>Ville de Bordeaux</p>
             </div>
-            <div class="eu">
+            <div class="europe">
               <img src="images/Flag_of_Europe.svg" alt="pictogramme Union Europenne">
               <p>Union européenne</p>
             </div>
@@ -366,30 +364,16 @@
         </div>
       </ul>
     </div>
-    <div class="column3">
+    <div class="apropos espace-gauche">
       <h4>À propos du musée</h4>
-      <nav>
-        <ul>
-            <li>
-                <a href="#">Mentions légales</a>
-            </li>
-            <li>
-                <a href="#">Nos partenaires</a>
-            </li>
-            <li>
-                <a href="#">Faire un don</a>
-            </li>
-            <li>
-                <a href="#">Travailler avec nous</a>
-            </li>
-            <li>
-                <a href="#">Accessibilité</a>
-            </li>
-            <li>
-                <a href="#">Plan du site</a>
-            </li>
-        </ul>
-      </nav>
+      <div class="espace-a-propo">
+        <a href="#">Mentions légales</a>
+        <a class="espace-a-propos" href="#">Nos partenaires</a>
+        <a class="espace-a-propos" href="#">Faire un don</a>
+        <a class="espace-a-propos" href="#">Travailler avec nous</a>
+        <a class="espace-a-propos" href="#">Accessibilité</a>
+        <a class="espace-a-propos" href="#">Plan du site</a>
+      </div>
     </div>
   </footer>
 </body>
