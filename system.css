@@ -42,6 +42,11 @@ h4{
     font-size: 1.5rem;
     font-family: 'Noto Serif KR', serif;
 }
+h5{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
 .p-big{
     color: #817C7C;
     font-size: 1.125rem;
@@ -60,13 +65,21 @@ h4{
     font-size: 1.125rem;
 }
 .newsletter-box{
-    
+
     display: flex;
     align-items: center;
 }
-.bouton-rouge{
+
+.bouton-rouge:link, .bouton-rouge:visited{
     padding: 0.5rem 1rem;
     background-color: #B21E1E;
     color: #fff;
     text-decoration: none;
+    border: 2px solid transparent;
+}
+.bouton-rouge:hover, .bouton-rouge:active{
+    background-color: #fff;
+    color: #B21E1E;
+    stroke: #B21E1E;
+    border: 2px solid #B21E1E;
 }

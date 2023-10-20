@@ -9,6 +9,7 @@
       ),
     url("images/accueil-img-cenotaphe.webp");
   background-position: center 0%;
+  background-size: cover;
   color: #fff;
   height: 100vh;
   display: flex;
@@ -140,6 +141,7 @@
 }
 .support-us {
   height: 20.625rem;
+  width: 100vw;
   text-align: center;
   text-transform: uppercase;
 }
@@ -417,6 +419,11 @@ a:visited {
   color: #fff;
   text-decoration: underline;
 }
+
+.newsletter-box{
+    width: 40rem;
+    background-color: #fff;
+}
 .newsletter-box{
     width: 40rem;
     background-color: #fff;
@@ -434,7 +441,6 @@ a:visited {
 }
 .newsletter-bouton{
     padding: 2rem 1rem;
-    margin-left: 1.5rem;
     padding: 1rem 1.5rem;
     background-color: #B21E1E;
     color: #fff;
