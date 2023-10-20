@@ -124,11 +124,11 @@
   margin-right: auto;
 }
 
-.collections article{
+.collections article {
   height: fit-content;
 }
 
-.collections-container{
+.collections-container {
   margin: 0.5rem;
 }
 
@@ -190,6 +190,8 @@
 
 .espace-bas {
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .text-expo {
@@ -256,7 +258,7 @@ footer {
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 50px;
-  padding:0 2rem;
+  padding: 0 2rem;
 }
 
 .escape-game p {
@@ -284,6 +286,8 @@ footer {
 
 .espace-bas-grand {
   margin-top: 200px;
+  display: flex;
+  align-items: center;
 }
 
 .tag {

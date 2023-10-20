@@ -84,6 +84,9 @@ address a {
 
 .socials img {
   width: 30px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .column2 {
