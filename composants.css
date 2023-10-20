@@ -177,7 +177,7 @@ address a {
 
   }
 
-  a.bouton-scroll2.responsive{
+  a .bouton-scroll2{
     margin-left: auto;
     margin-right: auto;
   }
@@ -195,11 +195,14 @@ address a {
   
   .collections article:nth-child(1) {
     position: relative;
-    width: 16.5rem;
+    width: auto;
     height: 30rem;
     background: no-repeat linear-gradient( 180deg, rgba(0, 0, 0, 0) 0%, rgba(5, 5, 5, 0.12) 28.62%, rgba(25, 25, 25, 0.58) 57.72%, rgba(37, 37, 37, 0.85) 100% ), 100% / 100% url(images/collection1_hier.webp);
     margin-left: auto;
     margin-right: auto;
+}
+.collections-container{
+  margin: 1.5rem;
 }
 
   .escape-game h2 {

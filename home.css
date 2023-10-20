@@ -111,7 +111,7 @@
 
 .collections article:nth-child(1) {
   position: relative;
-  width: 67.5rem;
+  width: 100%;
   height: 28rem;
   background: no-repeat linear-gradient(180deg,
       rgba(0, 0, 0, 0) 0%,
@@ -126,15 +126,16 @@
 
 .collections article {
   height: fit-content;
+  width: 100%;
 }
 
 .collections-container {
-  margin: 0.5rem;
+  margin: 5.25rem;
 }
 
 .collections article:nth-child(1)::after {
   position: absolute;
-  content: "4/4";
+  content: "expo 1";
   bottom: 1rem;
   right: 1rem;
   color: #fff;
@@ -170,7 +171,9 @@
 .collections {
   background-color: #f5f4f4;
 }
-
+.collection-savoir-plus{
+  margin-top: 1.5rem;
+}
 .titre-expo {
   margin-bottom: 6.25rem;
 }
@@ -256,7 +259,7 @@ footer {
   color: white;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
+  margin-top: 200px;
   padding-bottom: 50px;
   padding: 0 2rem;
 }
@@ -409,7 +412,13 @@ footer {
   height: 100%;
   position: relative;
 }
-
+.img-container:hover {
+  filter : brightness(115%);
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
 .boutique-tag {
   position: absolute;
   padding: 0.5rem 1rem;
