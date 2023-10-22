@@ -7,7 +7,6 @@
   <meta name="description" content="Plongez au cœur du terroir bordelais à travers le musée d’Aquitaine et ses collections riches. Un moment unique vous attend. Découvrez l'histoire d'Aquitaine un de nos trésors Français. #MuséeAquitaine" />
   <title>Le musée d'Aquitaine</title>
   <link rel="icon" type="image/svg+xml" href="images/icons/logo_rouge.svg" />
-  <link rel="stylesheet" href="media.css" />
   <link rel="stylesheet" href="reset.css" />
   <link rel="stylesheet" href="home.css" />
   <link rel="stylesheet" href="system.css" />
@@ -23,6 +22,9 @@
 
       <ul>
         <li>
+          <a class="burger-menu" href=""><img src="images/icons/burger.svg"</a>
+        </li>
+        <li>
           <a href="/decouvrir">Découvrir</a>
         </li>
         <li>
@@ -32,13 +34,13 @@
           <a href="/e-boutique">e-Boutique ↗</a>
         </li>
         <li>
-          <a class="billetterie-bouton" href="billetterie.html" target="_parent">
+          <a class="billetterie-bouton" href="#">
             <span>Billetterie</span>
             <img src="images/icons/billetterie.svg" alt="" />
           </a>
         </li>
         <li>
-          <a href="/langue">FR</a>
+          <a href="#">FR</a>
         </li>
       </ul>
     </nav>
@@ -49,11 +51,11 @@
         <div class="accueil-texte">
           <div>
             <h1 class="titre">Bienvenue sur le site du musée d'Aquitaine</h1>
-            <a class="billetterie-bouton" href="billeterie.html">
+            <a class="billetterie-bouton" href="#">
               <span>Billetterie</span>
               <img src="images/icons/billetterie.svg" alt="" />
             </a>
-            <a href="#" class="bouton-scroll">Scrollez pour en savoir plus &downarrow;</a>
+            <a href="#citation" class="bouton-scroll">Scrollez pour en savoir plus &downarrow;</a>
           </div>
 
           <p class="credit">
@@ -62,7 +64,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="citation">
       <div class="container">
         <blockquote class="citation">
           “Le musée d'Aquitaine, un lieu unique qui raconte l'histoire de
@@ -91,8 +93,8 @@
             </p>
           </div>
         </div>
-        <div class="img-expo">
-          <img src="images/exposition-art.webp" alt="exposition art préhistorique" />
+        <div class="exposition-img-container">
+        
         </div>
       </div>
 
@@ -115,9 +117,7 @@
             </div>
           </div>
         </div>
-        <div class="img-expo">
-          <img src="images/exposition-eglise.webp"
-            alt="image de l'exposition sur l'art préhistorique présentée au musée d'aquitaine" />
+        <div class="collection-img-container exposition2">
         </div>
       </div>
       <a href="#" class="bouton-scroll2 responsive" >Voir toutes les expositions &RightArrow;</a>
@@ -238,7 +238,7 @@
         ! Voyagez à travers les époques, lieu par lieu, énigme par énigme,
         grâce à notre parcours au format d’escape game audio !
       </p>
-      <a class="bouton">Découvrir l'escape game</a>
+      <a href="https://www.hunting-town.com/escape-game-musee/musee-aquitaine/" class="bouton">Découvrir l'escape game</a>
     </section>
     <section class="boutique">
       <div class="container">
@@ -313,7 +313,7 @@
     </div>
   </aside>
 
-  <footer class="container">
+  <footer class="">
     <div class="column1">
       <h4>Musée d'Aquitaine</h4>
       <address>
